@@ -1,10 +1,15 @@
 @font-face {
     font-family: 'robotoregular';   
-    src: url('font/Roboto-Regular-webfont.woff') format('woff');
+    src: url('Font/Roboto-Regular-webfont.woff') format('woff');
          
     font-weight: normal;
     font-style: normal;
 
+}
+
+@font-face{
+    font-family: Montserrat;
+    src:url(Font/montserrat/MontserratAlternates-ExtraBold.otf) format('otf');
 }
 
 /* --- Centralisation du contenu de la page --- */
@@ -12,6 +17,8 @@ body
 {    
     margin: 0;
     padding: 0;
+    height: 100vh;
+    width: 100vw;
 }
 
 /* --- Travail sur le Header --- */
@@ -24,6 +31,7 @@ header
     align-items: center;
     background-color: #D92950;    
     padding: 8px 16px;
+    margin-right: 20%;
     height: 84px;  
     width: 100vw;  
     font-family: 'robotoregular', sans-serif;
@@ -44,7 +52,7 @@ nav
 {
     flex-basis: 500px;
     display: flex;
-    
+    margin-right: 30px;
 
 }
 
@@ -82,47 +90,149 @@ li:nth-of-type(1)
     border-color: rgb(255, 0, 0)
 }
 
-/* --- Première section --- */
+/* --- fin Header --- */
+
+/* --- Main --- */
 
 main
 {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
+/* --- section 1 --- */
 section:nth-of-type(1)
 {
-    flex-basis: 100px;
-    padding-bottom: 20vh;
-    margin: 0;
+    
+    padding-bottom: 20vh;  
+    padding-top: 20vh;  
     background: url("images/hero-background.jpg") top no-repeat;
-    background-size: cover;
+    background-color: #D92950;
+    background-size:cover;
     
 }
 
-.contenair-besoin
+.sp-contenaire
+{
+    
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+.md-1-contenaire
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bs-1-contenaire
 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: -50px;
+    
+}
+.titre1
+{    
+    
+    font-family: Montserrat, sans-serif;
+    font-size: 74.205px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    line-height: 100.846px;
+    text-transform: uppercase !important;
     
 }
 
-.titre1
+.titre1 span
 {
-    font-family: ;
-    padding: 10%;
-    font-size: 4em;
-    text-align: center;
-    text-transform: uppercase !important;
+    color: #ffe64d;
+}
+.bs-2-contenaire
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+    
 }
 
+.bs-2-contenaire button
+{    
+    width: 220px;
+    padding: 20px;
+    margin: 15px;
+    background: #fff;
+    color: #d92950;
+    font-weight: bold;
+    font-size: 14px;
+    border:  #fff 2px solid;    
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.bs-2-contenaire button:hover
+{
+    background:#d92950;
+    color:  #fff;  
+    border:  #fff 2px solid;
+}
+
+.md-1-contenaire p
+{
+    width: 800px;
+    height: 38px;
+    margin: 24px 185px 0px;    
+    color: #fff; 
+    text-align: center;  
+    font-size: 16px; 
+    font-family: Montserrat, sans-serif;
+}
+
+.md-2-contenaire
+{
+    margin: 20px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.md-2-contenaire img
+{
+    height: 40px;
+    width: 48.44px;
+    opacity: 0.5;
+}
+/* --- fin section 1 --- */
+
+/* --- Section 2 --- */
 section:nth-of-type(2)
 {
-    flex-basis: 100px;    
-    background-color: rgb(255, 255, 255);
+        
+    background-color: #f1f0f3;
 
 }
+
+.illustrations
+{
+    display: flex;
+    
+}
+.illustrations img
+{
+    flex-basis: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+
 section:nth-of-type(3)
 {
     flex-basis: 100px;
