@@ -290,6 +290,127 @@ Images
 /* -- debut section 3 -- */
 section:nth-of-type(3)
 {
-    flex-basis: 100px;
+    padding: 100px 0px;
     background-color:  #D92950;
+    
+}
+
+.contenaire-sect-3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100% ;
+}
+
+.content-h1
+{
+    flex-grow: 1;
+}
+
+.content-carousel
+{
+    flex-grow: 2;
+}
+
+.content-h1 h1
+{
+    font: 40px Montserrat, sans-serif;
+    margin: 0px 0px 50px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.carousel-items
+{
+    display: flex;
+    overflow-x: scroll;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 234px;
+}
+
+.carousel-item
+{
+    padding: 20px;
+    width: 234px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#facebook
+{
+    width: 155px;
+    height: 32px;
+}
+
+#orange
+{
+    width: 80px;
+    height: 80px;
+}
+
+#deloitte
+{
+    width: 160px;
+    height: 30px;
+}
+
+#ey
+{
+    width: 138px;
+    height: 79px;
+}
+
+#gsma
+{
+    width: 138px;
+    height: 79px;
+}
+
+#digitalafri
+{
+    width: 160px;
+    height: 76px;
+}
+
+#france
+{
+    width: 160px;
+    height: 75px;
+}
+
+#minSante
+{
+    width: 155px;
+    height: 32px;
+}
+
+#texaf
+{
+    width: 72px;
+    height: 79px;
+}
+
+#twb
+{
+    width: 138px;
+    height: 79px;
+}
+
+#banquemondiale
+{
+    width: 155px;
+    height: 32px;
+}
+
+#theeconomist
+{
+    width: 160px;
+    height: 49px;
 }
