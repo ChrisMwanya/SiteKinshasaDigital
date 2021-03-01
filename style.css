@@ -13,6 +13,7 @@ body
 header
 {
     position: fixed;
+    z-index: 99;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,7 +71,7 @@ a:focus
     border-color: rgb(255, 0, 0)
 }
 
-li:nth-of-type(1)
+header li:nth-of-type(1)
 {
     border-bottom: 2px solid;
     outline: none;
@@ -307,11 +308,13 @@ section:nth-of-type(3)
 
 .content-h1
 {
+    /* Propriété utilisé aussi dans la section 5*/
     flex-grow: 1;
 }
 
 .content-carousel
 {
+    /* Propriété utilisé aussi dans la section 5*/
     flex-grow: 2;
 }
 
@@ -446,7 +449,7 @@ section:nth-of-type(4)
 }
 
 .box4
-{
+{ 
     flex-basis: 570px;
     
 }
@@ -475,6 +478,7 @@ section:nth-of-type(4)
 
 .contenaire-titre
 {
+    /* aussi sur la section 6 */
     width: 100%;
     padding: 0px 15px;
     display: flex;
@@ -570,5 +574,137 @@ section:nth-of-type(5)
     align-items: center;
 }
 
+.contenu-carousel-sect-5
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
+.bloc-carousel
+{
+    width: 100%;
+}
 
+.sous-contenu-sect-5
+{
+    
+    padding: 20px;
+}
+
+.imageWork img
+{
+    width: 80%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* section 6 */
+section:nth-of-type(4)
+{
+    padding: 100px 0px;
+    background-color:  #f1f0f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sect-6-cont1
+{
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-header h3
+{
+    color: #FFF;
+    font: 28px Montserrat, sans-serif;
+    font-weight: 700;
+    margin: 0px 0px 8px;
+   
+
+}
+
+.card-header
+{
+    padding: 12px 20px;
+    width: 100%;
+}
+
+#card-header-1
+{
+    background-color: #D92950;
+    width: 630px;
+} 
+
+#card-header-2
+{
+    background-color: #180027DE;
+    width: 470px;
+}
+
+.card-body
+{
+    padding: 10px auto;
+    font: 20.8px 'Ubuntu Mono', monospace;
+    padding: 0px 0px 16px;
+    background-color: #F1F0F3;
+    opacity: 0.7;
+    
+}
+
+.card svg
+{
+    font-size: 0.6em;
+}
+
+.col1
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.col
+{
+    background-color: #F1F0F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.sous-col
+{
+    background-color: #DFDEE1;
+    margin:60px 0px;
+    border-radius: 10px;
+    
+    
+}
+
+.sous-col ol
+{
+    margin: 10px 0px;
+}
+
+.sous-col li
+{
+    color: #424345;
+    font: 20.8px 'Ubuntu Mono', monospace;
+    width: 270px;
+    line-height: 31px;
+    margin: 13px 30px;
+}
