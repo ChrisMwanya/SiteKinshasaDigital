@@ -673,87 +673,110 @@ section:nth-of-type(6)
 {
     padding: 100px 0px;
     background-color:  #FFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100vw;
 }
 
-.contenaire-sect-6
+section:nth-of-type(6) h1
 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90vw;    
-}
-.sect-6-cont1
-{    
-    display: flex;    
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-.row
-{    
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-.cont-titre-6 h1
-{
-    font: 40px Montserrat,sans-serif;
-    font-weight: 600;
-    margin: 0px 0px 50px;
-    color: #180027DE;
-}
-
-.col
-{
-    background-color: #F1F0F3;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-}
-
-#card-header-1
-{
-    background-color: #D92950;
-    
-} 
-
-#card-header-2
-{
-    background-color: #180027DE;
-    
-}
-
-.card-body
-{
-    padding: 10px auto;
-    font: 20.8px 'Ubuntu Mono', monospace;
-    padding: 0px 0px 10px;
-    background-color: #F1F0F3;
-    opacity: 0.7;
-    
-    
-}
-.card svg
-{
-    font-size: 0.6em;
-}
-
-.col1
-{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    padding: 5px;
+    font-style: normal;
+    color: #424345;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
-    
+    font-weight: 700;
+    font-size: 2.5em
 }
 
+#bloc-sec-5
+{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 50px
+}
 
+.tableau
+{
+    margin: 0px 25px;
+}
 
+#tab1
+{
+    width: 45vw;
+}
+#tab1 h3, #tab2 h3
 
+{
+    color:#fff;
+    font-size: 2em;
+    margin-left: 20px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+}
 
+#tab1-header{
+    height: 70px;
+    background: #D92950 ;
+    display: flex;
+    align-items: center;
+}
+#tab1-body{
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background: #F1F0F3;
+    border-radius: 0 0 20px 20px;
+    opacity: 0.7;
+}
+.logos
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#tab2{
+    width: 30vw;    
+    border-radius: 0 0 20px 20px;
+}
+
+#tab2-header
+{
+    height: 70px;
+    background: #341F41 ;
+    display: flex;
+    align-items: center;
+    
+}
+#tab2 h3
+
+{
+    color:#fff;
+    font-size: 2em;
+    margin-left: 20px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#tab2-body{
+    padding: 40px 30px; 
+    padding-bottom: 50px ;
+    font-family: "Ubuntu Mono", monospace;
+    background: #F1F0F3;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 0 0 20px 20px;
+}
+#tab2-body ol{
+    line-height: 2em;
+    list-style-position: inside;
+    background: #DFDEE1;
+    border-radius: 20px;
+}
+#tab2-texte{
+    
+    padding: 50px 35px;
+    padding-bottom: 60px ;
+    border-radius: 10px;
+
+}
 
 /* -- fin section 6 -- */
 
@@ -766,6 +789,7 @@ section:nth-of-type(7)
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .cont-header-7
@@ -788,12 +812,37 @@ section:nth-of-type(7)
 .cont-body-7
 {
     flex-grow: 2;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color:#f1f0f3
 }
 
+.box-img
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-img img
+{
+    height: 34px;
+    width: 40px;
+}
+
+.box
+{
+    border: 1px solid #FFF;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
