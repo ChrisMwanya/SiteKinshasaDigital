@@ -1113,6 +1113,7 @@ section:nth-of-type(11)
     align-items:center;
     color: hsla(0,0%,100%,.87);
     width: 100vw;
+    
     margin-bottom: 0;
 }
 
@@ -1122,10 +1123,272 @@ section:nth-of-type(11)
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
+    padding: 30px;
 }
 
 #cont-formulaire h1
 {
     font: 3rem Montserrat,sans-serif;
     font-weight: 700;
+}
+#cont-formulaire p
+{
+    font: 16px Montserrat,sans-serif;
+    font-weight: 400;
+    color: #FFF;
+}
+
+#cont-formulaire a
+{
+    color: #D92950;
+}
+
+
+#cont-formulaire #paragr-gras
+{
+    font-weight: 600;
+}
+
+#cont-formulaire form
+{
+    
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+#first-fields
+{    
+    margin: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#field-1, #field-2
+{    
+    width: 43%;  
+     
+}
+
+#field-3
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    padding-left: 45px;
+    width: 93%;
+    padding: 40px;
+}
+
+#footer-main input:not(.envoie), select{
+    width: 100%;
+    height: 40px;
+    margin: 8px 0;
+    font-family: 'Roboto', sans-serif; 
+}
+textarea{
+    width: 100%;
+    height: 60px;
+    margin: 8px 0;
+}
+
+#footer-main a{
+    color: #D92950;
+    text-decoration: none;
+}
+#footer-main a:hover{
+    border-bottom: 2.5px solid #D92950 ;
+}
+#cont-formulaire form input, select, textarea
+{
+    padding-left: 10px;
+    font-family: 'Roboto', sans-serif;  
+    color : #757575; 
+}
+
+select
+{
+    appearance: none;
+    background-image: url(images/test.svg);
+    background-size: .7em;
+    background-position: 98% center;
+    background-repeat: no-repeat;
+}
+
+select::-ms-expand {
+    display: none;
+  }
+
+  textarea{
+    padding-top: 10px;
+    height: 20px ;
+}
+
+.placeholder ::placeholder,form option { 
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+  
+}
+.placeholder :-ms-input-placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+  
+}
+
+.placeholder :-ms-input-placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+  
+}
+.placeholder ::-ms-input-placeholder { 
+    font-family: 'Roboto', sans-serif;   
+    font-size: 1.2em;
+}
+
+#footer-main button{
+    color: #FFF;
+    background-color: #d92950;
+    border-radius: 15px;
+    text-transform: uppercase ;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 15px 25px;
+    border: 2px solid #31052C ;
+    font-size: 1.05em;
+    margin-top: 20px;
+    width: 150px;
+    
+}
+#footer-main button:hover{
+    background: transparent;
+    transition: 0.3s;
+    border: 2px solid #d92950 ;
+    cursor: pointer;
+}
+
+.pied-form
+{
+    padding:0 30px;
+}
+
+.pied-form button
+{
+    padding-left: 50px ;
+}
+
+input:focus, select:focus, textarea:focus{
+    outline: 4px solid rgba(217, 41, 80, 0.2);   
+}
+/* -- footer -- */
+footer
+{
+    width: 100vw;
+    padding: 100px 0px;
+    background-color: #2d2d2d;    
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#contenaire-bloc1
+{
+    width: 45%;
+}
+
+footer strong
+{
+    color: #fff;
+    font: 22px Roboto, sans-serif;
+    font-weight: 700;
+}
+
+footer p
+{
+    font-style: normal;
+    font: 22px Roboto, sans-serif;
+    font-weight: 200;
+}
+
+#contact a
+{
+    
+    color: #D92950;
+    font: 22px Roboto, sans-serif;
+}
+
+#footer-bloc2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#footer-bloc2 input
+{
+    height: 40px;
+    width: 434px;
+    padding: 6px 12px ;
+    border:none
+}
+
+#inputInscrire #btn
+{
+    cursor: pointer;
+    height: 52px;
+    width: 120px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #D92950;
+    color: #fff;
+    
+}
+
+#inputInscrire #btn:hover
+{
+    background-color: #2d2d2d;
+    color: #000;
+
+}
+
+#footer-bloc2 #texte
+{
+    font: 22px Roboto, sans-serif; 
+    font-weight: 200; 
+}
+
+#footer-bloc2 #texte strong
+{
+    font-weight: 800;
+}
+
+#inputInscrire 
+{
+    display: flex;
+    justify-content: center;
+    font: 22px Roboto, sans-serif; 
+}
+
+#footer-bloc2 #mention
+{
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.lienSociaux 
+{    
+    height: 30px;
+    width: 30px;
+}
+
+#social
+{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+   
 }
