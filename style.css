@@ -73,7 +73,7 @@ a:focus
 
 header li:nth-of-type(1)
 {
-    border-bottom: 2px solid;
+    
     outline: none;
     border-color: rgb(255, 0, 0)
 }
@@ -1104,7 +1104,7 @@ section:nth-of-type(10)
 
 /* -- debut section footer-main -- */
 
-section:nth-of-type(11)
+#footer-main
 {
     padding: 100px 0px;
     background-color: #1d1b25;
