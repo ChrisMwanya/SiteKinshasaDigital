@@ -33,7 +33,7 @@ header img
 {
     border-style: none;
     width: 100px;
-    height: 84px;
+    height: 80px;
 }
 
 nav
@@ -50,7 +50,8 @@ ul
    justify-content: space-around;
    list-style-type: none;
    height: 24px;
-   width: 442.29px;   
+   width: 100%;
+  /* width: 442.29px;   */
 }
 /* --- Traitement des liens --- */
 a{
@@ -97,6 +98,7 @@ section:nth-of-type(1)
     padding-top: 20vh;  
     background: url("images/hero-background.jpg") top no-repeat;    
     background-size:cover;
+    
     
 }
 
@@ -329,12 +331,12 @@ section:nth-of-type(3)
 .carousel-items
 {
     display: flex;
-    overflow-x: scroll;
+   /* overflow-x: scroll;*/
     justify-content: space-between;
     align-items: center;
     width: 100vw;
     height: 50vh;
-    scroll-snap-type: x mandatory;
+   /* scroll-snap-type: x mandatory;*/
 }
 
 .carousel-item
@@ -346,9 +348,9 @@ section:nth-of-type(3)
     justify-content: center;
     align-items: center;
     flex: 1 0 250px;
-    scroll-snap-align: start;
+    /*scroll-snap-align: start;*/
 }
-
+/*
 ::-webkit-scrollbar-track {
     background-color: #D92950;
 }
@@ -362,7 +364,7 @@ section:nth-of-type(3)
     background-color: #F5F5F5;
     border-radius: 3px;
 }
-
+*/
 #facebook
 {
     width: 155px;
@@ -732,9 +734,18 @@ section:nth-of-type(6) h1
     justify-content: space-around;
 }
 
+.logos div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 #tab2{
-    width: 30vw;    
+    width: 35.5vw;    
     border-radius: 0 0 20px 20px;
+    
 }
 
 #tab2-header
@@ -756,8 +767,8 @@ section:nth-of-type(6) h1
 }
 
 #tab2-body{
-    padding: 40px 30px; 
-    padding-bottom: 50px ;
+    
+    padding: 49px;
     font-family: "Ubuntu Mono", monospace;
     background: #F1F0F3;
     font-size: 20px;
@@ -765,15 +776,15 @@ section:nth-of-type(6) h1
     border-radius: 0 0 20px 20px;
 }
 #tab2-body ol{
-    line-height: 2em;
+    line-height: 2.3em;
     list-style-position: inside;
     background: #DFDEE1;
     border-radius: 20px;
+    padding: 32px;
 }
 #tab2-texte{
     
-    padding: 50px 35px;
-    padding-bottom: 60px ;
+    
     border-radius: 10px;
 
 }
@@ -806,11 +817,11 @@ section:nth-of-type(6) h1
     width: 250.74px;
     border-radius: 20px;
     font: 20px Roboto, sans-serif;
-    background-color: #FFF;
+    background-color: #AE3753;
     padding: 15px 25px;
     margin:24px 0px 0px;
-    border: solid 2px #D92950;
-    color: #D92950;
+    border: solid 2px #FFF;
+    color: #FFF;
     cursor:pointer;
 }
 /* -- fin section 6 -- */
@@ -865,10 +876,17 @@ section:nth-of-type(7)
     align-items: center;
 }
 
+
+#img-users
+{
+    height: 17px;
+    width: 32px;
+}
+
 .box-img img
 {
     height: 34px;
-    width: 40px;
+    width: 34 px;
 }
 
 .box
@@ -882,6 +900,18 @@ section:nth-of-type(7)
     align-items: center;
     padding: 10px;
 }
+/*
+.box::after
+{
+    content: "";
+    position: absolute;
+    background: url("images/illustrations/arrow.png") no-repeat;
+    width: 100px;
+    background-size: 35%;
+    height: 50px;
+    top: 35px;
+    right: -40px;
+}*/
 
 /* -- fin section 7 -- */
 
@@ -993,15 +1023,23 @@ section:nth-of-type(9)
     padding: 100px 0px;
     background-color: #111;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items:center;
     color: #FFF;
     width: 100vw;
 }
 
+#box-img-9
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 #img-sect-9
 {
-    width: 80vw;
+    width: 65vw;
     display: flex;
     justify-content: space-evenly;
    
@@ -1021,7 +1059,7 @@ section:nth-of-type(9)
     
     font: 40px Montserrat, sans-serif;
     font-weight: 800;
-    word-spacing: 25px;
+    
 }
 
 section:nth-of-type(10)

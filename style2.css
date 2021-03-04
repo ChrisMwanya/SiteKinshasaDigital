@@ -1,9 +1,9 @@
 #first-section
 {
-    padding: 100px 30px;
-    background-color: #f1f0f3;  
-    width: 100vw;  
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 100px 30px !important;
+    background-color: #f1f0f3 !important;  
+    width: 100vw !important;  
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
