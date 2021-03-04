@@ -1103,12 +1103,13 @@ section:nth-of-type(10)
     margin-left: 45px;
 }
 
+
 .row-sect-10
 {
-    width: 80vw;
+    width: 80%;
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 10px;
 }
 
 .row-sect-10 p
@@ -1137,7 +1138,19 @@ section:nth-of-type(10)
 #tweets
 {
     width: 50vw;
+    
+    
 }
+
+#tweets p
+{
+    display: inline-block;
+    margin: 20px;
+    width: 250px;
+}
+
+
+
 /* -- Fin section 10 -- */
 
 /* -- debut section footer-main -- */
@@ -1150,19 +1163,16 @@ section:nth-of-type(10)
     justify-content: center;
     align-items:center;
     color: hsla(0,0%,100%,.87);
-    width: 100vw;
-    
+    width: 100vw;    
     margin-bottom: 0;
 }
 
 #cont-formulaire
 {
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100%;
-    padding: 30px;
+    padding: 0 50px;
 }
 
 #cont-formulaire h1
@@ -1182,54 +1192,31 @@ section:nth-of-type(10)
     color: #D92950;
 }
 
-
-#cont-formulaire #paragr-gras
+#field-1
 {
-    font-weight: 600;
-}
-
-#cont-formulaire form
-{
-    
     display: flex;
     flex-direction: column;
-    height: 100%;
+    width: 50vw;    
 }
-
-#first-fields
-{    
-    margin: 20px 0;
+#field-1 div, #field-2 div, #field-3 div
+{
     width: 100%;
-    display: flex;
-    justify-content: space-around;
 }
 
-#field-1, #field-2
-{    
-    width: 43%;  
-     
+#field-2
+{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
 }
+
 
 #field-3
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;    
-    padding-left: 45px;
-    width: 93%;
-    padding: 40px;
-}
-
-#footer-main input:not(.envoie), select{
-    width: 100%;
-    height: 40px;
-    margin: 8px 0;
-    font-family: 'Roboto', sans-serif; 
-}
-textarea{
-    width: 100%;
-    height: 60px;
-    margin: 8px 0;
+    align-items: flex-start;
+    width: 50vw;
 }
 
 #footer-main a{
@@ -1238,51 +1225,6 @@ textarea{
 }
 #footer-main a:hover{
     border-bottom: 2.5px solid #D92950 ;
-}
-#cont-formulaire form input, select, textarea
-{
-    padding-left: 10px;
-    font-family: 'Roboto', sans-serif;  
-    color : #757575; 
-}
-
-select
-{
-    appearance: none;
-    background-image: url(images/test.svg);
-    background-size: .7em;
-    background-position: 98% center;
-    background-repeat: no-repeat;
-}
-
-select::-ms-expand {
-    display: none;
-  }
-
-  textarea{
-    padding-top: 10px;
-    height: 20px ;
-}
-
-.placeholder ::placeholder,form option { 
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
-  
-}
-.placeholder :-ms-input-placeholder {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
-  
-}
-
-.placeholder :-ms-input-placeholder {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2em;
-  
-}
-.placeholder ::-ms-input-placeholder { 
-    font-family: 'Roboto', sans-serif;   
-    font-size: 1.2em;
 }
 
 #footer-main button{
@@ -1307,14 +1249,11 @@ select::-ms-expand {
     cursor: pointer;
 }
 
-.pied-form
+#first-fields
 {
-    padding:0 30px;
-}
-
-.pied-form button
-{
-    padding-left: 50px ;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 input:focus, select:focus, textarea:focus{
@@ -1429,4 +1368,33 @@ footer p
     justify-content: space-between;
     margin-top: 20px;
    
+}
+
+
+
+fieldset
+{
+    border: none;
+
+}
+
+input, select, textarea
+{
+    width: 100%;
+    margin-bottom: 15px;
+    height: 38px;
+    box-sizing: border-box;
+    padding: 6px 12px;
+}
+
+.cont-fieldset
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.con-fieldset
+{
+    width: 48.5%;
 }
