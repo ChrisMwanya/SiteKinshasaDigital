@@ -132,11 +132,10 @@ section:nth-of-type(1)
 {    
     
     font-family: 'Montserrat', sans-serif;
-    font-size: 74.205px;
+    font-size: 74px;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-weight: 900;
-    line-height: 100.846px;
+    font-weight: 900;    
     text-transform: uppercase !important;
     
 }
@@ -187,7 +186,7 @@ section:nth-of-type(1)
 
 .md-2-contenaire
 {
-    margin: 20px 30px;
+    margin: 50px 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -226,7 +225,7 @@ Images
 
 .sect-2-content-img
 {
-    flex-basis: 50%;
+    flex-basis: 50%;    
 }
 
 #img1
@@ -286,6 +285,7 @@ Images
 {
     width: 50px;
     height: 62px;
+    
 }
  
 /* -- fin section 2 -- */
@@ -1271,6 +1271,30 @@ footer
     
 }
 
+#cont-formulaire #paragr-gras
+{
+    font-weight: 600;
+}
+
+#footer-main input:not(.envoie), select{
+    width: 100%;
+    height: 40px;
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+#cont-formulaire h1
+{
+    font: 3rem Montserrat,sans-serif;
+    font-weight: 700;
+}
+#cont-formulaire p
+{
+    font: 16px Montserrat,sans-serif;
+    font-weight: 400;
+    color: #FFF;
+}
+
 #contenaire-bloc1
 {
     width: 45%;
@@ -1349,6 +1373,21 @@ footer p
     font: 22px Roboto, sans-serif; 
 }
 
+#texte  input
+{
+    height: 52px;
+}
+
+
+.pied-form
+{
+    padding:0 30px;
+}
+
+.pied-form button
+{
+    padding-left: 40px ;
+}
 #footer-bloc2 #mention
 {
     font-size: 16px;
@@ -1397,4 +1436,13 @@ input, select, textarea
 .con-fieldset
 {
     width: 48.5%;
+}
+
+textarea
+{
+    resize: none;
+    min-height: 80px;
+    overflow-y: scroll;
+
+
 }

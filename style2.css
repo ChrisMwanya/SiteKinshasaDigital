@@ -1,9 +1,71 @@
 #first-section
 {
-    padding: 100px 30px !important;
-    background-color: #f1f0f3 !important;  
-    width: 100vw !important;  
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
+    background:#fff;
+    padding: 150px 100px;
+    
+    
 }
+
+/* section job */
+
+#contenairTitle
+{
+    
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#first-section h1
+{
+    color: #424345;
+    font: 40px  Montserrat,sans-serif;
+    font-weight: 600;
+    
+}
+
+
+.boc-job
+{
+    color:#424345;
+    Font:16px Roboto, sans-serif;   
+    background: #F1F0F3;
+    padding: 32px;
+    width: 300px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#ens-bloc
+{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.petitbox
+{
+    height: 150px;
+}
+
+.boc-job h4
+{
+    color: #111;
+    font: 20.8px Montserrat, sans-serif;
+    margin: 0px 0px 8px;
+}
+.boc-job p
+{
+    font: 16px Montserrat, sans-serif;
+    margin: 0px 0px 48px;
+}
+
+.boc-job a
+{
+    
+    font: 16px Robot, sans-serif;
+    color: #D92950;
+}
+
