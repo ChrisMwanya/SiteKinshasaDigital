@@ -236,7 +236,20 @@ Images
     border-radius: 25px;
     left:-100px;
 }
+.bar-img
+{
+    border-bottom: 3px solid #D92950;
+    width: 50px;
+    padding: 0px 0px 24px;
+    margin-bottom: -20px ;
+}
 
+.Image-text
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #img2
 {
     position: relative;
@@ -774,6 +787,7 @@ section:nth-of-type(6) h1
     font-size: 20px;
     font-weight: 400;
     border-radius: 0 0 20px 20px;
+    opacity: 0.7;
 }
 #tab2-body ol{
     line-height: 2.3em;
@@ -899,9 +913,10 @@ section:nth-of-type(7)
     justify-content: center;
     align-items: center;
     padding: 10px;
+    position: relative;
 }
-/*
-.box::after
+
+.fleche::after
 {
     content: "";
     position: absolute;
@@ -909,9 +924,9 @@ section:nth-of-type(7)
     width: 100px;
     background-size: 35%;
     height: 50px;
-    top: 35px;
-    right: -40px;
-}*/
+    top: 30px;
+    left: 95px;
+}
 
 /* -- fin section 7 -- */
 
@@ -1042,6 +1057,7 @@ section:nth-of-type(9)
     width: 65vw;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
    
 }
 
@@ -1167,6 +1183,14 @@ section:nth-of-type(10)
     margin-bottom: 0;
 }
 
+form
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+
+}
+
 #cont-formulaire
 {
     display: flex;
@@ -1256,8 +1280,49 @@ section:nth-of-type(10)
     margin-bottom: 30px;
 }
 
+.pied-form
+{
+    margin-left: 17px;
+}
 input:focus, select:focus, textarea:focus{
-    outline: 4px solid rgba(217, 41, 80, 0.2);   
+    outline: 4px solid rgba(217, 41, 80, 0.2);  
+    
+}
+
+fieldset
+{
+    border: none;
+
+}
+
+input, select, textarea
+{
+    width: 100%;
+    margin-bottom: 15px;
+    height: 38px;
+    box-sizing: border-box;
+    padding: 6px 12px;
+}
+
+.cont-fieldset
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.con-fieldset
+{
+    width: 48.5%;
+}
+
+textarea
+{
+    resize: none;
+    min-height: 80px;
+    overflow-y: scroll;
+
+
 }
 /* -- footer -- */
 footer
@@ -1311,7 +1376,7 @@ footer p
 {
     font-style: normal;
     font: 22px Roboto, sans-serif;
-    font-weight: 200;
+    
 }
 
 #contact a
@@ -1345,20 +1410,22 @@ footer p
     border-top-right-radius: 15px;
     background-color: #D92950;
     color: #fff;
+    font-weight: 700;
     
 }
 
 #inputInscrire #btn:hover
 {
     background-color: #2d2d2d;
-    color: #000;
+    color: #FFF;
+    border: 2px solid #FFF;
 
 }
 
 #footer-bloc2 #texte
 {
     font: 22px Roboto, sans-serif; 
-    font-weight: 200; 
+    
 }
 
 #footer-bloc2 #texte strong
@@ -1373,21 +1440,12 @@ footer p
     font: 22px Roboto, sans-serif; 
 }
 
+
 #texte  input
 {
     height: 52px;
 }
 
-
-.pied-form
-{
-    padding:0 30px;
-}
-
-.pied-form button
-{
-    padding-left: 40px ;
-}
 #footer-bloc2 #mention
 {
     font-size: 16px;
@@ -1411,38 +1469,3 @@ footer p
 
 
 
-fieldset
-{
-    border: none;
-
-}
-
-input, select, textarea
-{
-    width: 100%;
-    margin-bottom: 15px;
-    height: 38px;
-    box-sizing: border-box;
-    padding: 6px 12px;
-}
-
-.cont-fieldset
-{
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.con-fieldset
-{
-    width: 48.5%;
-}
-
-textarea
-{
-    resize: none;
-    min-height: 80px;
-    overflow-y: scroll;
-
-
-}
